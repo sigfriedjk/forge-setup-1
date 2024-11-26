@@ -1,6 +1,6 @@
 #!/bin/bash
 
-huggingface-cli login ${1}
+huggingface-cli login --token ${1}}
 
 huggingface-cli download stabilityai/stable-diffusion-3.5-medium
 
